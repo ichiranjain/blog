@@ -3,6 +3,8 @@ title: 1580. Put Boxes Into Warehouse - I
 date: 2021-01-27 00:00:00
 ---
 
+### Problem Statement
+
 You are given two arrays of positive integers, boxes and warehouse, representing the heights of some boxes of unit width and the heights of n rooms in a warehouse respectively. The warehouse's rooms are labelled from 0 to n - 1 from left to right where warehouse[i] (0-indexed) is the height of the ith room.
 
 Boxes are put into the warehouse by the following rules:
@@ -14,6 +16,7 @@ Boxes are put into the warehouse by the following rules:
 
 Return the maximum number of boxes you can put into the warehouse.
 
+### Input
 
 Example 1:
 
@@ -24,6 +27,8 @@ Output: 3
 We can first put the box of height 1 in room 4. Then we can put the box of height 3 in either of the 3 rooms 1, 2, or 3. Lastly, we can put one box of height 4 in room 0.
 There is no way we can fit all 4 boxes in the warehouse.
 ```
+
+Example 2:
 
 ```
 Input: boxes = [1,2,2,3,4], warehouse = [3,4,1,2]
@@ -52,6 +57,7 @@ Now start inserting the boxes in warehouse if box is equal to lesser than room h
 ```
 
 2. Solution
+
 ```
 class Solution {
     public int maxBoxesInWarehouse(int[] boxes, int[] warehouse) {

@@ -39,7 +39,8 @@ multiply each element with every row and do a summation of every C[i][k] for A[i
 
 2. Solution
 
-    ```
+
+```
     class Solution {
     public int[][] multiply(int[][] A, int[][] B) {
 
@@ -71,4 +72,4 @@ multiply each element with every row and do a summation of every C[i][k] for A[i
         return C;
     }
 }
-    ```
+```
