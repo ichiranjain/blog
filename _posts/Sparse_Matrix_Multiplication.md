@@ -30,7 +30,14 @@ AB = | -1 0 3 | x | 0 0 0 | = | -7 0 3 |
                   | 0 0 1 |
 ```
 
-1. List with code
+1. Key
+
+```
+multiply each element with every row and do a summation of every C[i][k] for A[i][j] and B[i][j]
+
+```
+
+2. Solution
 
     ```
     class Solution {
