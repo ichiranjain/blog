@@ -1,6 +1,7 @@
 ---
 title: 1580. Put Boxes Into Warehouse - I
-date: 2021-01-27 00:00:00
+date: 2021-01-27 00:00:00 PST
+category: code
 ---
 
 ### Problem Statement

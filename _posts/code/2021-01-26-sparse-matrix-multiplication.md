@@ -1,6 +1,7 @@
 ---
 title: 311. Sparse Matrix Multiplication
-date: 2021-01-26 00:00:00
+date: 2021-01-26 00:00:00 PST
+category: code
 ---
 
 Given two sparse matrices A and B, return the result of AB.
