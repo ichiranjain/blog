@@ -1,7 +1,7 @@
 ---
-title: 16. 3Sum Closest
-date: 2021-02-10 09:36:00 PST
-category: code
+title: Worksheet-2
+date: 2021-02-18 09:30:00 PST
+category: worksheet
 ---
 
 ### Arrays and Strings - 1
